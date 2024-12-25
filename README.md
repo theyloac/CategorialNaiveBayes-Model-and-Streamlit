@@ -94,3 +94,36 @@ Below is a concise overview of the training pipeline:
 
 - The predicted vehicle quality is displayed on the screen.
 
+
+# How to Run
+
+## Clone this repository (or download the code):
+
+```bash
+git clone https://github.com/your-username/vehicle-quality-prediction.git
+cd vehicle-quality-prediction
+```
+
+## Install Dependencies:
+
+```bash
+pip install scikit-learn
+pip install streamlit
+
+```
+
+Make sure you’re in a virtual environment (recommended) or have a Python environment set up.
+
+## Run the App:
+
+```bash
+streamlit run "quality_prediction.py" 
+```
+
+
+
+Interact with the app: choose feature values and see the prediction.
+
+
+
+
